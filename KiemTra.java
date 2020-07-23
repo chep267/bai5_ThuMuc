@@ -1,4 +1,4 @@
-package ThuMuc;
+package thumuc;
 
 import java.io.File;
 

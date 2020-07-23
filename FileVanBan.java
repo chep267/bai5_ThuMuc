@@ -1,10 +1,8 @@
-package ThuMuc;
+package thumuc;
 
 import java.io.File;
-import java.net.URI;
 
 class FileVanBan extends File {
-
 
     public FileVanBan(String pathname) {
         super(pathname);

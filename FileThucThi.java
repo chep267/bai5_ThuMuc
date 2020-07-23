@@ -1,7 +1,7 @@
-package ThuMuc;
+package thumuc;
 
 import java.io.File;
-import java.net.URI;
+
 
 class FileThucThi extends File {
 
