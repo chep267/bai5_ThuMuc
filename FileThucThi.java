@@ -1,15 +1,13 @@
-package thumuc;
-
-import java.io.File;
+package dongcode.thumuc;
 
 
-class FileThucThi extends File {
+class FileThucThi extends file {
 
-    public FileThucThi(String pathname) {
-        super(pathname);
+    FileThucThi(String st) {
+        name = st;
     }
 
-    void mo() {
-        System.out.println("\nFile thuc thi:  "+ getAbsolutePath());
+    void moFile() {
+        System.out.println("\nFile thuc thi:  " + name);
     }
 }

@@ -1,4 +1,4 @@
-package thumuc;
+package dongcode.thumuc;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package thumuc;
+package dongcode.thumuc;
 
 import java.io.File;
 import java.util.Arrays;
@@ -25,20 +25,23 @@ class ThuMuc{
                 }
             });
 
-            for (final File each : children) {
-                // gọi lại hàm mo()
-                mo(each);
-            }
+            for
+                (final File each : children) {
+                    // gọi lại hàm mo()
+                    mo(each);
+                }
 
         } else {
             // in ten file ra man hinh
-            if( f.getAbsolutePath().endsWith(".txt") || f.getAbsolutePath().endsWith(".pdf") || f.getAbsolutePath().endsWith(".docx") || f.getAbsolutePath().endsWith(".xls") || f.getAbsolutePath().endsWith(".doc")) {
-                FileVanBan a = new FileVanBan(f.getName());
-                a.mo();
+            if( f.getAbsolutePath().endsWith(".txt") || f.getAbsolutePath().endsWith(".pdf") || f.getAbsolutePath().endsWith(".docx")
+                    || f.getAbsolutePath().endsWith(".xls") || f.getAbsolutePath().endsWith(".doc") || f.getAbsolutePath().endsWith(".xlsx") )
+            {
+                file a = new FileVanBan(f.getName());
+                a.moFile();
             }
             else {
-                FileThucThi b = new FileThucThi(f.getName());
-                b.mo();
+                file b = new FileThucThi(f.getName());
+                b.moFile();
             }
         }
     }

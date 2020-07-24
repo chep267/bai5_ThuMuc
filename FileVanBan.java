@@ -1,15 +1,14 @@
-package thumuc;
+package dongcode.thumuc;
 
-import java.io.File;
 
-class FileVanBan extends File {
+class FileVanBan extends file {
 
-    public FileVanBan(String pathname) {
-        super(pathname);
+    FileVanBan(String st) {
+        name = st;
     }
 
-    void mo() {
-        System.out.println("\nFile van ban:  "+ getAbsolutePath());
+    void moFile() {
+        System.out.println("\nFile van ban:  " + name);
     }
 }
 
